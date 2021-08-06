@@ -1,0 +1,39 @@
+	@font-face {
+    font-family: amiri;
+    src: url('fonts/amiri.ttf');}
+		@font-face {
+    font-family: dubai;
+    src: url('fonts/Dubai.ttf');}
+	* {font-family: amiri;}
+th {
+	cursor:default;
+    border:1px solid silver;
+	font-family:amir;	}
+  html, body {
+    width: 200mm;
+    height: 287mm;
+	font-family: amiri;
+	margin:10px;
+  }
+
+td {text-align:center;font-family:amiri;font-size:0.9em;border: 1px solid #cccccc;text-indent:4px;}
+table{width:auto;direction:ltr;line-height:0.5;padding:4px}
+	.innertable{width:70%;border-collapse:collapse;white-space:nowrap;}
+.innertable,.innertable td {border:1px solid #888;background:#eeefff}
+
+
+@media print {
+  html, body,div {
+    width: 17cm;
+    height: 260mm;
+	font-size:0.94em;
+	font-family: amiri;
+	margin:10px;
+  }
+  table {width:auto;border-collapse:collapse;}
+  /* ... the rest of the rules ... */
+}
+@page {
+  size: A4;
+  margin: 0;
+}

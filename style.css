@@ -1,0 +1,36 @@
+@font-face{src:url('fonts/amiri.ttf');font-family:amiri}
+body { 
+background:white;margin:14px;
+background-image:url('images/dot.png');
+background-attachment:fixed;
+}
+.menu{margin-top:12px;padding:4;width:25%;float:right;direction:rtl;
+font-size:1m; height:auto;border:1px solid #888;box-shadow:1px 1px 3px #888;
+ background-image:url('images/page.jpg');   }
+.editor,.editor1 {float:left;
+  text-align:right;
+  width:22cm; 
+height:auto;
+font-size:0.7m;
+padding:4px;box-shadow:1px 1px 3px #888;
+background:white;
+}
+@media print { 
+.menu,.xzt,input,button{  display: none !important;	  }
+ body,html,.editor2 {width:21cm;    box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+    margin: 5mm auto;font-size:0.8;}
+	div {width:18cm;font-size:0.8;}
+ }
+textarea {direction:rtl;font-family:amiri;}
+div {direction:rtl;font-family:amiri;}
+a {text-decoration:none;	}
+input{text-decoration:none;	 
+    padding: 2px;
+    color:navy;
+    border: 1px solid grey;
+    font-weight: bold;		
+	}
+
+table{width:auto;direction:ltr;line-height:0.5;padding:4px}
+	.innertable{width:80%;border-collapse:collapse;white-space:nowrap;}
+.innertable,.innertable td {border:1px solid #888;background:#eeefff}
